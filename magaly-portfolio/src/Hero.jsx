@@ -35,17 +35,19 @@ const Hero = () =>
                                 <span className="text-purple-300"> I'm Magaly</span>
                             </h1>
                             <p className="text-lg text-slate-400 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-                                Software engineer + Soccer player. I build things for the web and the pitch. Let's create something amazing together.
+                                Software engineer + Soccer player. I build things for the web and make socccer content.
                             </p>
                             <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-4">
-                                <motion.button
+                                {/* I can add an anchor with motion */}
+                                <motion.a
                                     whileHover={{ scale: 1.1 }}
                                     whileTap={{ scale: 0.95 }}
-                                    className="className= px-8 py-3 text-white border border-white/10 rounded-xl font-bold hover:bg-white/10 transition-all"
+                                    href="#about"
+                                    className="px-8 py-3 text-white border border-white/10 rounded-xl font-bold hover:bg-white/10 transition-all"
                                 >
-                                    Aboout me
-                                </motion.button>
-                                
+                                    About me
+                                </motion.a>
+
 
                                 <motion.button
                                     whileHover={{ scale: 1.1 }}
@@ -86,7 +88,7 @@ const Hero = () =>
                                         className="w-full h-full object-cover"
                                     />
                                 </div>
-                                
+
 
                             </div>
                         </div>

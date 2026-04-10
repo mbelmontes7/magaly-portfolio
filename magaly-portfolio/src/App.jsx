@@ -1,8 +1,11 @@
-import Hero from "./Hero";
+import Hero from './Hero';
 
 function App()
 {
-  return <Hero />;
+  return (
+    <main>
+      <Hero />
+    </main>
+  );
 }
-
 export default App;

@@ -26,6 +26,8 @@ const Hero = () =>
                 <div className="container relative z-10 max-w-7xl mx-auto px-6 py-20">
                     <div className="flex flex-col lg:flex-row items-center gap-16">
 
+
+
                         {/* LEFT: Text Column */}
                         <div className="flex-1 text-center lg:text-left space-y-6">
                             <h1 className="  text-5xl md:text-7xl font-extrabold text-green tracking-tight">
@@ -33,15 +35,33 @@ const Hero = () =>
                                 <span className="text-purple-300"> I'm Magaly</span>
                             </h1>
                             <p className="text-lg text-slate-400 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-                                Software engineer building creative projects with code.
+                                Software engineer + Soccer player. I build things for the web and the pitch. Let's create something amazing together.
                             </p>
                             <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-4">
-                                <button className="px-8 py-3 bg-blue-600 text-white rounded-xl font-bold hover:bg-blue-700 transition-all">
-                                    View My Work
-                                </button>
-                                <button className="px-8 py-3 bg-white/5 text-white border border-white/10 rounded-xl font-bold hover:bg-white/10 transition-all">
-                                    Contact Me
-                                </button>
+                                <motion.button
+                                    whileHover={{ scale: 1.1 }}
+                                    whileTap={{ scale: 0.95 }}
+                                    className="className= px-8 py-3 text-white border border-white/10 rounded-xl font-bold hover:bg-white/10 transition-all"
+                                >
+                                    Aboout me
+                                </motion.button>
+
+                                <motion.button
+                                    whileHover={{ scale: 1.1 }}
+                                    whileTap={{ scale: 0.95 }}
+                                    className="className= px-8 py-3 text-white border border-white/10 rounded-xl font-bold hover:bg-white/10 transition-all"
+                                >
+                                    View my work
+                                </motion.button>
+                                <motion.button
+                                    whileHover={{ scale: 1.1 }}
+                                    whileTap={{ scale: 0.95 }}
+                                    className="className= px-8 py-3 text-white border border-white/10 rounded-xl font-bold hover:bg-white/10 transition-all"
+                                >
+                                    Contact me
+                                </motion.button>
+
+
                             </div>
                         </div>
 

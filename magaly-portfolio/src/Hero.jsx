@@ -45,6 +45,7 @@ const Hero = () =>
                                 >
                                     Aboout me
                                 </motion.button>
+                                
 
                                 <motion.button
                                     whileHover={{ scale: 1.1 }}
@@ -85,6 +86,7 @@ const Hero = () =>
                                         className="w-full h-full object-cover"
                                     />
                                 </div>
+                                
 
                             </div>
                         </div>

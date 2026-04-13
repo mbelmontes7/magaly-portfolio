@@ -94,7 +94,7 @@ const About = () =>
                                     <Code size={16} className="text-purple-400" /> Backend
                                 </h4>
                                 <ul className="text-xs md:text-sm text-slate-400 space-y-1.5 list-disc list-inside marker:text-purple-600">
-                                    <li>Node.js</li><li>SQL</li><li>C#</li><li>Python</li>
+                                    <li>Node.js</li><li>SQL</li><li>C#</li><li>Python</li><li>java</li>
                                 </ul>
                             </div>
 

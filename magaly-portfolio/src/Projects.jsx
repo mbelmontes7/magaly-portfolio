@@ -4,7 +4,7 @@ import { Plus } from 'lucide-react';
 
 const projects = [
     {
-        title: 'Portfolio Website',
+        title: 'Not sure yet',
         subtitle: 'Personal brand and web portfolio',
         accent: 'bg-[linear-gradient(135deg,#6dc7ff_0%,#8b5cf6_55%,#ec4899_100%)]',
         art: (
@@ -14,8 +14,8 @@ const projects = [
                 <div className="absolute left-24 top-12 h-24 w-32 -rotate-3 rounded-[1.7rem] border-4 border-slate-900/10 bg-white/90 shadow-lg" />
                 <div className="absolute right-10 top-10 h-28 w-28 rounded-[1.7rem] bg-fuchsia-400/90 shadow-lg" />
                 <div className="absolute inset-x-8 bottom-8 text-left">
-                    <p className="text-4xl font-black uppercase tracking-tight text-white drop-shadow-md">MAGALY</p>
-                    <p className="text-3xl font-black uppercase tracking-tight text-slate-950/80">PORTFOLIO</p>
+                    <p className="text-4xl font-black uppercase tracking-tight text-white drop-shadow-md"></p>
+                    <p className="text-3xl font-black uppercase tracking-tight text-slate-950/80"></p>
                 </div>
             </div>
         )
@@ -74,29 +74,6 @@ const projects = [
             </div>
         )
     },
-    {
-        title: 'Pokedex',
-        subtitle: 'Open-source learning project',
-        accent: 'bg-[linear-gradient(135deg,#f8fafc_0%,#e2e8f0_100%)]',
-        art: (
-            <div className="relative h-full w-full overflow-hidden rounded-[1.7rem] bg-slate-100">
-                <div className="grid h-full grid-cols-4 gap-2 p-4">
-                    {Array.from({ length: 8 }).map((_, index) => (
-                        <div key={index} className="rounded-xl bg-white shadow-sm" />
-                    ))}
-                </div>
-                <div className="absolute right-4 top-4 h-28 w-24 rounded-2xl bg-orange-200/95 shadow-md" />
-                <div className="absolute right-8 top-8 h-10 w-10 rounded-full bg-orange-500" />
-                <div className="absolute right-9 top-20 h-4 w-12 rounded-full bg-orange-400/80" />
-            </div>
-        )
-    },
-    {
-        title: 'New Project',
-        subtitle: 'Start your next idea here',
-        accent: 'border-2 border-dashed border-[#d8c8b3] bg-[#efe6d7]',
-        isPlaceholder: true
-    }
 ];
 
 const Projects = () =>
@@ -111,7 +88,7 @@ const Projects = () =>
                     transition={{ duration: 0.6 }}
                     className="mb-14"
                 >
-                    <div className="mb-4 inline-flex -rotate-3 bg-[#243b78] px-4 py-2 text-sm font-extrabold uppercase tracking-[0.18em] text-white">
+                    <div className="mb-4 inline-flex -rotate-3 bg-[#CE8FFF] px-4 py-2 text-sm font-extrabold uppercase tracking-[0.18em] text-white">
                         View My Work
                     </div>
                     <h2 className="text-5xl font-black tracking-tight sm:text-6xl text-white">Projects</h2>

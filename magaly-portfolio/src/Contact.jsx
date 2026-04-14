@@ -25,22 +25,22 @@ const LinkedInIcon = ({ className }) => (
 const socialLinks = [
     {
         label: 'Instagram',
-        handle: '@yourhandle',
-        href: 'https://instagram.com/yourhandle',
+        handle: '@im_magaly_07',
+        href: 'https://www.instagram.com/im_magaly_07/',
         icon: InstagramIcon,
         glow: 'from-fuchsia-500/25 via-pink-500/12 to-orange-300/8'
     },
     {
         label: 'GitHub',
-        handle: 'github.com/yourusername',
-        href: 'https://github.com/yourusername',
+        handle: 'github.com/mbelmontes7',
+        href: 'https://github.com/mbelmontes7?tab=overview&from=2026-04-01&to=2026-04-13',
         icon: GitHubIcon,
         glow: 'from-slate-200/18 via-slate-400/10 to-slate-700/6'
     },
     {
         label: 'LinkedIn',
-        handle: 'linkedin.com/in/yourprofile',
-        href: 'https://linkedin.com/in/yourprofile',
+        handle: 'linkedin.com/in/magaly-belmontes',
+        href: 'https://www.linkedin.com/in/magaly-belmontes/',
         icon: LinkedInIcon,
         glow: 'from-sky-500/24 via-blue-500/12 to-cyan-300/8'
     }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'framer-motion';
 import { Plus } from 'lucide-react';
 
 const projects = [
@@ -81,7 +81,7 @@ const Projects = () =>
     return (
         <section id="projects" className="w-full bg-[#01061a] px-6 py-20 text-white border-t border-white/5">
             <div className="mx-auto max-w-6xl">
-                <motion.div
+                <Motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -92,11 +92,11 @@ const Projects = () =>
                         View My Work
                     </div>
                     <h2 className="text-5xl font-black tracking-tight sm:text-6xl text-white">Projects</h2>
-                </motion.div>
+                </Motion.div>
 
                 <div className="flex gap-6 overflow-x-auto pb-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
                     {projects.map((project, index) => (
-                        <motion.article
+                        <Motion.article
                             key={project.title}
                             initial={{ opacity: 0, y: 24 }}
                             whileInView={{ opacity: 1, y: 0 }}
@@ -127,7 +127,7 @@ const Projects = () =>
                                 </h3>
                                 <p className="mt-1 text-sm text-slate-400">{project.subtitle}</p>
                             </div>
-                        </motion.article>
+                        </Motion.article>
                     ))}
                 </div>
             </div>

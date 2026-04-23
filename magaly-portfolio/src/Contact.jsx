@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'framer-motion';
 import { ArrowRight, Mail } from 'lucide-react';
 
 const InstagramIcon = ({ className }) => (
@@ -51,7 +51,7 @@ const Contact = () =>
     return (
         <section id="contact" className="w-full border-t border-white/5 bg-[#01061a] px-6 py-24">
             <div className="mx-auto max-w-6xl">
-                <motion.div
+                <Motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -64,7 +64,7 @@ const Contact = () =>
 
                     <div className="relative z-10 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
                         <div>
-                            <motion.p
+                            <Motion.p
                                 initial={{ opacity: 0, y: 12 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
@@ -72,9 +72,9 @@ const Contact = () =>
                                 className="mb-4 text-sm font-semibold uppercase tracking-[0.28em] text-violet-200"
                             >
                                 Contact Me
-                            </motion.p>
+                            </Motion.p>
 
-                            <motion.h2
+                            <Motion.h2
                                 initial={{ opacity: 0, y: 16 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
@@ -82,9 +82,9 @@ const Contact = () =>
                                 className="max-w-xl text-4xl font-black tracking-tight text-white md:text-6xl"
                             >
                                 Let&apos;s build something
-                            </motion.h2>
+                            </Motion.h2>
 
-                            <motion.p
+                            <Motion.p
                                 initial={{ opacity: 0, y: 16 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
@@ -92,9 +92,9 @@ const Contact = () =>
                                 className="mt-5 max-w-xl text-lg leading-relaxed text-slate-300"
                             >
                                 I&apos;m always open to new projects, creative collaborations, and opportunities to grow. If you want to connect, start here.
-                            </motion.p>
+                            </Motion.p>
 
-                            <motion.div
+                            <Motion.div
                                 initial={{ opacity: 0, y: 16 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
@@ -112,7 +112,7 @@ const Contact = () =>
                                 <div className="rounded-full border border-white/10 bg-white/5 px-5 py-3 text-sm text-slate-300">
                                     Magaly.belmontes7788@gmail.com
                                 </div>
-                            </motion.div>
+                            </Motion.div>
                         </div>
 
                         <div className="space-y-4">
@@ -121,7 +121,7 @@ const Contact = () =>
                                 const Icon = item.icon;
 
                                 return (
-                                    <motion.a
+                                    <Motion.a
                                         key={item.label}
                                         initial={{ opacity: 0, x: 20 }}
                                         whileInView={{ opacity: 1, x: 0 }}
@@ -144,12 +144,12 @@ const Contact = () =>
                                         </div>
 
                                         <ArrowRight className="relative z-10 text-white/60 transition-transform duration-300 group-hover:translate-x-1 group-hover:text-white" size={18} />
-                                    </motion.a>
+                                    </Motion.a>
                                 );
                             })}
                         </div>
                     </div>
-                </motion.div>
+                </Motion.div>
             </div>
         </section>
     );

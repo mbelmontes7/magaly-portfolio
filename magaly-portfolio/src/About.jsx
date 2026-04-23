@@ -27,7 +27,7 @@ const About = () =>
                             transition={{ delay: 0.15, duration: 0.6 }}
                             className="mt-6 max-w-xl text-lg leading-relaxed text-slate-400"
                         >
-                            I am a software engineer who likes turning ideas into web experiences. My toolkit mixes code, design details, backend logic, and deployment so each project can feel polished from the first screen to the final commit.
+                            I am a software engineer who likes turning ideas into web experiences.
 
                         </Motion.p>
                     </div>

@@ -69,7 +69,7 @@ const Contact = () =>
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: 0.05 }}
-                            className="max-w-xl text-4xl font-black tracking-tight text-white md:text-3xl"
+                            className="max-w-xl text-2xl font-black tracking-tight text-white md:text-3xl"
                         >
                             Pick Up The Phone
                         </Motion.h2>
@@ -79,9 +79,9 @@ const Contact = () =>
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: 0.1 }}
-                            className="mt-5 max-w-xl text-lg leading-relaxed text-slate-300"
+                            className="mt-2 max-w-xl text-sm leading-relaxed text-slate-300"
                         >
-                            Tap the handset to open up my contact details. I wanted this section to feel more playful and personal, but still match the darker mood of the site.
+                            Tap the handset to open up my contact details.
                         </Motion.p>
 
                         <div className="mt-8 flex flex-wrap gap-3">

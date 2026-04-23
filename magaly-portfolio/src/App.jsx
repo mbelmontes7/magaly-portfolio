@@ -7,7 +7,7 @@ import SectionNav from './SectionNav';
 function App()
 {
   return (
-    <main>
+    <main className="relative isolate">
       <SectionNav />
       <Hero />
       <About />

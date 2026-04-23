@@ -92,7 +92,7 @@ const Hero = () =>
                                     <div className="rounded-[1.15rem] border-[10px] border-[#423f36] bg-black p-1 shadow-[inset_0_0_28px_rgba(0,0,0,0.85)] sm:border-[14px]">
                                         <div className="relative aspect-[4/3] overflow-hidden rounded-lg bg-[#06120f]">
                                             <video
-                                                src="/coding.mp4"
+                                                src="/life.MOV"
                                                 autoPlay
                                                 muted
                                                 loop

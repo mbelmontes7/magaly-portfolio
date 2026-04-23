@@ -50,8 +50,8 @@ const SectionNav = () =>
     }, []);
 
     return (
-        <div className="fixed left-1/2 top-4 z-50 -translate-x-1/2 px-4">
-            <nav className="flex items-center gap-1.5 rounded-full border border-white/10 bg-slate-950/55 p-1 shadow-[0_12px_30px_rgba(15,23,42,0.28)] backdrop-blur-md">
+        <div className="fixed inset-x-0 top-[max(0.75rem,env(safe-area-inset-top))] z-[999] flex justify-center px-2 sm:px-4">
+            <nav className="pointer-events-auto flex max-w-full items-center gap-1 rounded-full border border-white/10 bg-slate-950/80 p-1 shadow-[0_12px_30px_rgba(15,23,42,0.28)] backdrop-blur-md">
                 {sections.map((section) => {
                     const isActive = activeSection === section.id;
 
@@ -61,7 +61,7 @@ const SectionNav = () =>
                             href={`#${section.id}`}
                             whileHover={{ y: -1 }}
                             whileTap={{ scale: 0.98 }}
-                            className={`relative rounded-full px-3 py-1.5 text-[11px] font-bold uppercase tracking-[0.18em] transition-colors sm:px-4 sm:text-xs ${isActive ? 'text-white' : 'text-slate-300'}`}
+                            className={`relative rounded-full px-2.5 py-2 text-[10px] font-bold uppercase tracking-[0.12em] transition-colors sm:px-4 sm:py-1.5 sm:text-xs sm:tracking-[0.18em] ${isActive ? 'text-white' : 'text-slate-300'}`}
                         >
                             {isActive && (
                                 <Motion.span
